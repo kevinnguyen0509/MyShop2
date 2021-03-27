@@ -6,11 +6,11 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{41EAD464-5FCD-48C2-86B7-1DC475D1EF44}</ProjectGuid>
+    <ProjectGuid>{70AAB8A3-C2BD-4567-9F50-F1DD75E0425F}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>MyShop.WebUI.Tests</RootNamespace>
-    <AssemblyName>MyShop.WebUI.Tests</AssemblyName>
+    <RootNamespace>MyShop.WebUI2.Tests</RootNamespace>
+    <AssemblyName>MyShop.WebUI2.Tests</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -97,6 +97,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MyShop.WebUI2\MyShop.WebUI2.csproj">
+      <Project>{97A88BB8-FC6C-4EDC-B69D-F19C17962E75}</Project>
+      <Name>MyShop.WebUI2</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
